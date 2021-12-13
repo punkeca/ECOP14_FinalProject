@@ -5,7 +5,7 @@ Developer: Patricia Brenny Ribeiro
   
 MPLAB X IDE + PIC18f4520 + pqdp
 
-main is file inside project folder.
+main file is inside project folder.
 
 Used Peripherals:
 
