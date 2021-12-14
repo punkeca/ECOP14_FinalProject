@@ -1,3 +1,7 @@
+//Patricia Brenny Ribeiro
+//14 de dezembro 2021
+//Universidade Federal de Itajubá
+
 #include <pic18f4520.h>
 #include "config.h"
 #include "lcd.h"
