@@ -1,6 +1,8 @@
 # ECOP14_FinalProject
 Final Project delivered for ECOP04 and ECOP14 final grade.
 
+Presentation Video: https://youtu.be/jIbSCjj0-xE
+
 Developer: Patricia Brenny Ribeiro 
   
 MPLAB X IDE + PIC18f4520 + pqdp
