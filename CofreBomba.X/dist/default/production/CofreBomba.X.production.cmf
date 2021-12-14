@@ -1,0 +1,1176 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\CofreBomba.X.production.o
+cinit CODE 0 1DCC 1DCC 16 1
+idloc IDLOC 5 200000 200000 8 1
+text0 CODE 0 1344 1344 D2 1
+text1 CODE 0 1DE2 1DE2 10 1
+text2 CODE 0 1D54 1D54 22 1
+text3 CODE 0 1DFC 1DFC 8 1
+text4 CODE 0 1A74 1A74 56 1
+text5 CODE 0 163E 163E 94 1
+text6 CODE 0 1BB0 1BB0 3E 1
+text7 CODE 0 1DB2 1DB2 1A 1
+text8 CODE 0 14DA 14DA B4 1
+text9 CODE 0 1CE2 1CE2 26 1
+text10 CODE 0 1C2C 1C2C 32 1
+text11 CODE 0 1BEE 1BEE 3E 1
+text12 CODE 0 686 686 24E 1
+text13 CODE 0 B22 B22 1AE 1
+text14 CODE 0 CD0 CD0 16C 1
+text15 CODE 0 1A1C 1A1C 58 1
+text16 CODE 0 17BE 17BE 6C 1
+text17 CODE 0 1D08 1D08 26 1
+text18 CODE 0 174A 174A 74 1
+text19 CODE 0 1D2E 1D2E 26 1
+text20 CODE 0 1238 1238 10C 1
+text21 CODE 0 18FA 18FA 64 1
+text22 CODE 0 158E 158E B0 1
+text23 CODE 0 1416 1416 C4 1
+text24 CODE 0 FA6 FA6 15C 1
+text25 CODE 0 182A 182A 68 1
+text26 CODE 0 1892 1892 68 1
+text27 CODE 0 1ACA 1ACA 56 1
+text28 CODE 0 1D76 1D76 1E 1
+text29 CODE 0 1D94 1D94 1E 1
+text30 CODE 0 19C2 19C2 5A 1
+text31 CODE 0 1B6E 1B6E 42 1
+text32 CODE 0 1E04 1E04 2 1
+text33 CODE 0 1C5E 1C5E 30 1
+text34 CODE 0 16D2 16D2 78 1
+text35 CODE 0 1DF2 1DF2 A 1
+text36 CODE 0 1102 1102 136 1
+text37 CODE 0 1B20 1B20 4E 1
+text38 CODE 0 1C8E 1C8E 2A 1
+text39 CODE 0 1CB8 1CB8 2A 1
+text40 CODE 0 8D4 8D4 24E 1
+text41 CODE 0 E3C E3C 16A 1
+text42 CODE 0 195E 195E 64 1
+cstackCOMRAM COMRAM 1 1F 1F 1E 1
+smallconst SMALLCONST 0 600 600 86 1
+bssCOMRAM COMRAM 1 1 1 1E 1
+config CONFIG 4 300000 300000 E 1
+$C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+idloc IDLOC 5 200000 200000 8 1
+init CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 80-5FF 1
+SFR F80-FFF 1
+BANK0 80-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+CONST 4-5FF 1
+CONST 1E06-7FFF 1
+STACK 80-5FF 1
+SMALLCONST 1E06-7FFF 1
+CODE 4-5FF 1
+CODE 1E06-7FFF 1
+BIGRAM 3D-5FF 1
+COMRAM 3D-7F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 1E06-7FFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\CofreBomba.X.production.o
+195E text42 CODE >2:D:\Ecop14\CofreBomba.X\atraso.c
+195E text42 CODE >4:D:\Ecop14\CofreBomba.X\atraso.c
+196A text42 CODE >5:D:\Ecop14\CofreBomba.X\atraso.c
+1982 text42 CODE >6:D:\Ecop14\CofreBomba.X\atraso.c
+19A0 text42 CODE >7:D:\Ecop14\CofreBomba.X\atraso.c
+19A6 text42 CODE >9:D:\Ecop14\CofreBomba.X\atraso.c
+19C0 text42 CODE >10:D:\Ecop14\CofreBomba.X\atraso.c
+E3C text41 CODE >39:D:\Ecop14\CofreBomba.X\io.c
+E3C text41 CODE >40:D:\Ecop14\CofreBomba.X\io.c
+E58 text41 CODE >41:D:\Ecop14\CofreBomba.X\io.c
+E80 text41 CODE >42:D:\Ecop14\CofreBomba.X\io.c
+E9C text41 CODE >43:D:\Ecop14\CofreBomba.X\io.c
+EC8 text41 CODE >44:D:\Ecop14\CofreBomba.X\io.c
+EE4 text41 CODE >45:D:\Ecop14\CofreBomba.X\io.c
+F10 text41 CODE >46:D:\Ecop14\CofreBomba.X\io.c
+F2C text41 CODE >47:D:\Ecop14\CofreBomba.X\io.c
+F58 text41 CODE >48:D:\Ecop14\CofreBomba.X\io.c
+F74 text41 CODE >49:D:\Ecop14\CofreBomba.X\io.c
+FA0 text41 CODE >50:D:\Ecop14\CofreBomba.X\io.c
+FA0 text41 CODE >51:D:\Ecop14\CofreBomba.X\io.c
+FA4 text41 CODE >52:D:\Ecop14\CofreBomba.X\io.c
+8D4 text40 CODE >14:D:\Ecop14\CofreBomba.X\io.c
+8D4 text40 CODE >16:D:\Ecop14\CofreBomba.X\io.c
+8F0 text40 CODE >17:D:\Ecop14\CofreBomba.X\io.c
+922 text40 CODE >18:D:\Ecop14\CofreBomba.X\io.c
+944 text40 CODE >19:D:\Ecop14\CofreBomba.X\io.c
+960 text40 CODE >20:D:\Ecop14\CofreBomba.X\io.c
+968 text40 CODE >21:D:\Ecop14\CofreBomba.X\io.c
+99A text40 CODE >22:D:\Ecop14\CofreBomba.X\io.c
+9BC text40 CODE >23:D:\Ecop14\CofreBomba.X\io.c
+9D8 text40 CODE >24:D:\Ecop14\CofreBomba.X\io.c
+9E0 text40 CODE >25:D:\Ecop14\CofreBomba.X\io.c
+A12 text40 CODE >26:D:\Ecop14\CofreBomba.X\io.c
+A34 text40 CODE >27:D:\Ecop14\CofreBomba.X\io.c
+A50 text40 CODE >28:D:\Ecop14\CofreBomba.X\io.c
+A58 text40 CODE >29:D:\Ecop14\CofreBomba.X\io.c
+A8A text40 CODE >30:D:\Ecop14\CofreBomba.X\io.c
+AAC text40 CODE >31:D:\Ecop14\CofreBomba.X\io.c
+AC8 text40 CODE >32:D:\Ecop14\CofreBomba.X\io.c
+AD0 text40 CODE >33:D:\Ecop14\CofreBomba.X\io.c
+B02 text40 CODE >34:D:\Ecop14\CofreBomba.X\io.c
+B20 text40 CODE >38:D:\Ecop14\CofreBomba.X\io.c
+1CB8 text39 CODE >14:D:\Ecop14\CofreBomba.X\so.c
+1CB8 text39 CODE >15:D:\Ecop14\CofreBomba.X\so.c
+1CCC text39 CODE >16:D:\Ecop14\CofreBomba.X\so.c
+1CE0 text39 CODE >17:D:\Ecop14\CofreBomba.X\so.c
+1C8E text38 CODE >9:D:\Ecop14\CofreBomba.X\so.c
+1C8E text38 CODE >10:D:\Ecop14\CofreBomba.X\so.c
+1CA2 text38 CODE >11:D:\Ecop14\CofreBomba.X\so.c
+1CB6 text38 CODE >12:D:\Ecop14\CofreBomba.X\so.c
+1B20 text37 CODE >18:D:\Ecop14\CofreBomba.X\so.c
+1B20 text37 CODE >20:D:\Ecop14\CofreBomba.X\so.c
+1B34 text37 CODE >21:D:\Ecop14\CofreBomba.X\so.c
+1B38 text37 CODE >22:D:\Ecop14\CofreBomba.X\so.c
+1B4C text37 CODE >23:D:\Ecop14\CofreBomba.X\so.c
+1B50 text37 CODE >24:D:\Ecop14\CofreBomba.X\so.c
+1B56 text37 CODE >25:D:\Ecop14\CofreBomba.X\so.c
+1B68 text37 CODE >26:D:\Ecop14\CofreBomba.X\so.c
+1B6C text37 CODE >27:D:\Ecop14\CofreBomba.X\so.c
+1102 text36 CODE >27:D:\Ecop14\CofreBomba.X\keypad.c
+1102 text36 CODE >32:D:\Ecop14\CofreBomba.X\keypad.c
+110A text36 CODE >33:D:\Ecop14\CofreBomba.X\keypad.c
+1132 text36 CODE >35:D:\Ecop14\CofreBomba.X\keypad.c
+1160 text36 CODE >36:D:\Ecop14\CofreBomba.X\keypad.c
+117E text36 CODE >37:D:\Ecop14\CofreBomba.X\keypad.c
+11A4 text36 CODE >39:D:\Ecop14\CofreBomba.X\keypad.c
+11C2 text36 CODE >40:D:\Ecop14\CofreBomba.X\keypad.c
+11EC text36 CODE >42:D:\Ecop14\CofreBomba.X\keypad.c
+11F4 text36 CODE >43:D:\Ecop14\CofreBomba.X\keypad.c
+120C text36 CODE >44:D:\Ecop14\CofreBomba.X\keypad.c
+120E text36 CODE >45:D:\Ecop14\CofreBomba.X\keypad.c
+1212 text36 CODE >46:D:\Ecop14\CofreBomba.X\keypad.c
+1216 text36 CODE >47:D:\Ecop14\CofreBomba.X\keypad.c
+121E text36 CODE >48:D:\Ecop14\CofreBomba.X\keypad.c
+121E text36 CODE >49:D:\Ecop14\CofreBomba.X\keypad.c
+122E text36 CODE >50:D:\Ecop14\CofreBomba.X\keypad.c
+1236 text36 CODE >52:D:\Ecop14\CofreBomba.X\keypad.c
+1DF2 text35 CODE >14:D:\Ecop14\CofreBomba.X\keypad.c
+1DF2 text35 CODE >15:D:\Ecop14\CofreBomba.X\keypad.c
+1DFA text35 CODE >16:D:\Ecop14\CofreBomba.X\keypad.c
+16D2 text34 CODE >17:D:\Ecop14\CofreBomba.X\keypad.c
+16D2 text34 CODE >19:D:\Ecop14\CofreBomba.X\keypad.c
+16DA text34 CODE >20:D:\Ecop14\CofreBomba.X\keypad.c
+1712 text34 CODE >21:D:\Ecop14\CofreBomba.X\keypad.c
+1726 text34 CODE >23:D:\Ecop14\CofreBomba.X\keypad.c
+1746 text34 CODE >25:D:\Ecop14\CofreBomba.X\keypad.c
+1748 text34 CODE >26:D:\Ecop14\CofreBomba.X\keypad.c
+1C5E text33 CODE >10:D:\Ecop14\CofreBomba.X\lcd.c
+1C5E text33 CODE >12:D:\Ecop14\CofreBomba.X\lcd.c
+1C6A text33 CODE >15:D:\Ecop14\CofreBomba.X\lcd.c
+1C8C text33 CODE >16:D:\Ecop14\CofreBomba.X\lcd.c
+1E04 text32 CODE >5:D:\Ecop14\CofreBomba.X\lcd.c
+1E04 text32 CODE >9:D:\Ecop14\CofreBomba.X\lcd.c
+1B6E text31 CODE >18:D:\Ecop14\CofreBomba.X\lcd.c
+1B6E text31 CODE >19:D:\Ecop14\CofreBomba.X\lcd.c
+1B82 text31 CODE >20:D:\Ecop14\CofreBomba.X\lcd.c
+1B8E text31 CODE >21:D:\Ecop14\CofreBomba.X\lcd.c
+1BA2 text31 CODE >22:D:\Ecop14\CofreBomba.X\lcd.c
+1BAE text31 CODE >23:D:\Ecop14\CofreBomba.X\lcd.c
+19C2 text30 CODE >31:D:\Ecop14\CofreBomba.X\lcd.c
+19C4 text30 CODE >32:D:\Ecop14\CofreBomba.X\lcd.c
+19D8 text30 CODE >33:D:\Ecop14\CofreBomba.X\lcd.c
+19EC text30 CODE >34:D:\Ecop14\CofreBomba.X\lcd.c
+19F0 text30 CODE >36:D:\Ecop14\CofreBomba.X\lcd.c
+1A02 text30 CODE >37:D:\Ecop14\CofreBomba.X\lcd.c
+1A16 text30 CODE >38:D:\Ecop14\CofreBomba.X\lcd.c
+1A1A text30 CODE >39:D:\Ecop14\CofreBomba.X\lcd.c
+1D94 text29 CODE >40:D:\Ecop14\CofreBomba.X\lcd.c
+1D96 text29 CODE >41:D:\Ecop14\CofreBomba.X\lcd.c
+1DA4 text29 CODE >42:D:\Ecop14\CofreBomba.X\lcd.c
+1DB0 text29 CODE >43:D:\Ecop14\CofreBomba.X\lcd.c
+1D76 text28 CODE >52:D:\Ecop14\CofreBomba.X\lcd.c
+1D78 text28 CODE >53:D:\Ecop14\CofreBomba.X\lcd.c
+1D86 text28 CODE >54:D:\Ecop14\CofreBomba.X\lcd.c
+1D92 text28 CODE >55:D:\Ecop14\CofreBomba.X\lcd.c
+1ACA text27 CODE >57:D:\Ecop14\CofreBomba.X\lcd.c
+1ACA text27 CODE >58:D:\Ecop14\CofreBomba.X\lcd.c
+1AD2 text27 CODE >59:D:\Ecop14\CofreBomba.X\lcd.c
+1AD6 text27 CODE >60:D:\Ecop14\CofreBomba.X\lcd.c
+1AF2 text27 CODE >61:D:\Ecop14\CofreBomba.X\lcd.c
+1AF6 text27 CODE >59:D:\Ecop14\CofreBomba.X\lcd.c
+1B1E text27 CODE >63:D:\Ecop14\CofreBomba.X\lcd.c
+1892 text26 CODE >33:D:\Ecop14\CofreBomba.X\rgb.c
+1892 text26 CODE >34:D:\Ecop14\CofreBomba.X\rgb.c
+18A0 text26 CODE >35:D:\Ecop14\CofreBomba.X\rgb.c
+18B4 text26 CODE >37:D:\Ecop14\CofreBomba.X\rgb.c
+18C2 text26 CODE >38:D:\Ecop14\CofreBomba.X\rgb.c
+18D6 text26 CODE >40:D:\Ecop14\CofreBomba.X\rgb.c
+18E4 text26 CODE >41:D:\Ecop14\CofreBomba.X\rgb.c
+18F8 text26 CODE >43:D:\Ecop14\CofreBomba.X\rgb.c
+182A text25 CODE >21:D:\Ecop14\CofreBomba.X\rgb.c
+182A text25 CODE >22:D:\Ecop14\CofreBomba.X\rgb.c
+1838 text25 CODE >23:D:\Ecop14\CofreBomba.X\rgb.c
+184C text25 CODE >25:D:\Ecop14\CofreBomba.X\rgb.c
+185A text25 CODE >26:D:\Ecop14\CofreBomba.X\rgb.c
+186E text25 CODE >28:D:\Ecop14\CofreBomba.X\rgb.c
+187C text25 CODE >29:D:\Ecop14\CofreBomba.X\rgb.c
+1890 text25 CODE >31:D:\Ecop14\CofreBomba.X\rgb.c
+FA6 text24 CODE >35:D:\Ecop14\CofreBomba.X\main.c
+FA6 text24 CODE >37:D:\Ecop14\CofreBomba.X\main.c
+FAA text24 CODE >38:D:\Ecop14\CofreBomba.X\main.c
+FB2 text24 CODE >39:D:\Ecop14\CofreBomba.X\main.c
+FB8 text24 CODE >40:D:\Ecop14\CofreBomba.X\main.c
+FC4 text24 CODE >41:D:\Ecop14\CofreBomba.X\main.c
+FCA text24 CODE >42:D:\Ecop14\CofreBomba.X\main.c
+FD2 text24 CODE >43:D:\Ecop14\CofreBomba.X\main.c
+FD6 text24 CODE >44:D:\Ecop14\CofreBomba.X\main.c
+FDA text24 CODE >45:D:\Ecop14\CofreBomba.X\main.c
+100A text24 CODE >46:D:\Ecop14\CofreBomba.X\main.c
+1016 text24 CODE >47:D:\Ecop14\CofreBomba.X\main.c
+1028 text24 CODE >48:D:\Ecop14\CofreBomba.X\main.c
+102E text24 CODE >49:D:\Ecop14\CofreBomba.X\main.c
+1058 text24 CODE >50:D:\Ecop14\CofreBomba.X\main.c
+1060 text24 CODE >52:D:\Ecop14\CofreBomba.X\main.c
+1062 text24 CODE >43:D:\Ecop14\CofreBomba.X\main.c
+1072 text24 CODE >55:D:\Ecop14\CofreBomba.X\main.c
+107E text24 CODE >56:D:\Ecop14\CofreBomba.X\main.c
+1084 text24 CODE >58:D:\Ecop14\CofreBomba.X\main.c
+1096 text24 CODE >59:D:\Ecop14\CofreBomba.X\main.c
+10A2 text24 CODE >60:D:\Ecop14\CofreBomba.X\main.c
+10A6 text24 CODE >61:D:\Ecop14\CofreBomba.X\main.c
+10B2 text24 CODE >62:D:\Ecop14\CofreBomba.X\main.c
+10BE text24 CODE >63:D:\Ecop14\CofreBomba.X\main.c
+10CA text24 CODE >64:D:\Ecop14\CofreBomba.X\main.c
+10CE text24 CODE >65:D:\Ecop14\CofreBomba.X\main.c
+10DA text24 CODE >66:D:\Ecop14\CofreBomba.X\main.c
+10DC text24 CODE >67:D:\Ecop14\CofreBomba.X\main.c
+10E8 text24 CODE >68:D:\Ecop14\CofreBomba.X\main.c
+10F4 text24 CODE >69:D:\Ecop14\CofreBomba.X\main.c
+1100 text24 CODE >74:D:\Ecop14\CofreBomba.X\main.c
+1416 text23 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1416 text23 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+141A text23 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1428 text23 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1430 text23 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1434 text23 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1442 text23 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+144A text23 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+144E text23 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1456 text23 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1468 text23 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+146C text23 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1470 text23 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1476 text23 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1478 text23 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1486 text23 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+148C text23 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+14A2 text23 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+14AA text23 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+14AC text23 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+14B2 text23 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+14B8 text23 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+14C8 text23 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+14D0 text23 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+14D8 text23 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+158E text22 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+158E text22 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1592 text22 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15A0 text22 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15A8 text22 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15AC text22 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15BA text22 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15C2 text22 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15D4 text22 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15D8 text22 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15DC text22 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15E2 text22 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15E4 text22 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+15F2 text22 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1608 text22 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1610 text22 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1616 text22 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+161C text22 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+162C text22 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1634 text22 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+163C text22 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+18FA text21 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+18FA text21 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+190C text21 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+1910 text21 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+1914 text21 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+191A text21 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+191C text21 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+192A text21 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+1940 text21 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+1948 text21 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+194E text21 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+1954 text21 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+1954 text21 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+195C text21 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+1238 text20 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1238 text20 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+123C text20 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+124A text20 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+125A text20 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+125E text20 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+126C text20 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+127C text20 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1280 text20 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1290 text20 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+12A6 text20 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+12AA text20 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+12AE text20 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+12B8 text20 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+12BA text20 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+12C8 text20 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+12D2 text20 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+12F0 text20 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1300 text20 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1302 text20 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+130C text20 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1312 text20 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1322 text20 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1332 text20 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1342 text20 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+1D2E text19 CODE >44:D:\Ecop14\CofreBomba.X\pwm.c
+1D2E text19 CODE >48:D:\Ecop14\CofreBomba.X\pwm.c
+1D52 text19 CODE >49:D:\Ecop14\CofreBomba.X\pwm.c
+174A text18 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+174A text18 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1752 text18 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1764 text18 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1768 text18 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+176C text18 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1772 text18 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1774 text18 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1782 text18 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1788 text18 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+179E text18 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+17A6 text18 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+17A8 text18 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+17AE text18 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+17B4 text18 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+17B4 text18 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+17BC text18 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D08 text17 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1D08 text17 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1D14 text17 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1D1C text17 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1D24 text17 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1D2C text17 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+17BE text16 CODE >24:D:\Ecop14\CofreBomba.X\pwm.c
+17C0 text16 CODE >31:D:\Ecop14\CofreBomba.X\pwm.c
+17DE text16 CODE >33:D:\Ecop14\CofreBomba.X\pwm.c
+17FA text16 CODE >35:D:\Ecop14\CofreBomba.X\pwm.c
+1802 text16 CODE >37:D:\Ecop14\CofreBomba.X\pwm.c
+181A text16 CODE >39:D:\Ecop14\CofreBomba.X\pwm.c
+1828 text16 CODE >41:D:\Ecop14\CofreBomba.X\pwm.c
+1A1C text15 CODE >34:D:\Ecop14\CofreBomba.X\ssd.c
+1A1E text15 CODE >35:D:\Ecop14\CofreBomba.X\ssd.c
+1A2E text15 CODE >36:D:\Ecop14\CofreBomba.X\ssd.c
+1A32 text15 CODE >38:D:\Ecop14\CofreBomba.X\ssd.c
+1A42 text15 CODE >39:D:\Ecop14\CofreBomba.X\ssd.c
+1A46 text15 CODE >41:D:\Ecop14\CofreBomba.X\ssd.c
+1A58 text15 CODE >42:D:\Ecop14\CofreBomba.X\ssd.c
+1A5C text15 CODE >44:D:\Ecop14\CofreBomba.X\ssd.c
+1A6E text15 CODE >45:D:\Ecop14\CofreBomba.X\ssd.c
+1A72 text15 CODE >48:D:\Ecop14\CofreBomba.X\ssd.c
+CD0 text14 CODE >50:D:\Ecop14\CofreBomba.X\ssd.c
+CD0 text14 CODE >54:D:\Ecop14\CofreBomba.X\ssd.c
+CE4 text14 CODE >55:D:\Ecop14\CofreBomba.X\ssd.c
+CF8 text14 CODE >56:D:\Ecop14\CofreBomba.X\ssd.c
+D0C text14 CODE >57:D:\Ecop14\CofreBomba.X\ssd.c
+D20 text14 CODE >60:D:\Ecop14\CofreBomba.X\ssd.c
+D2C text14 CODE >62:D:\Ecop14\CofreBomba.X\ssd.c
+D30 text14 CODE >65:D:\Ecop14\CofreBomba.X\ssd.c
+D48 text14 CODE >66:D:\Ecop14\CofreBomba.X\ssd.c
+D5C text14 CODE >67:D:\Ecop14\CofreBomba.X\ssd.c
+D60 text14 CODE >68:D:\Ecop14\CofreBomba.X\ssd.c
+D64 text14 CODE >71:D:\Ecop14\CofreBomba.X\ssd.c
+D7C text14 CODE >72:D:\Ecop14\CofreBomba.X\ssd.c
+D90 text14 CODE >73:D:\Ecop14\CofreBomba.X\ssd.c
+D94 text14 CODE >74:D:\Ecop14\CofreBomba.X\ssd.c
+D98 text14 CODE >77:D:\Ecop14\CofreBomba.X\ssd.c
+DB0 text14 CODE >78:D:\Ecop14\CofreBomba.X\ssd.c
+DC4 text14 CODE >79:D:\Ecop14\CofreBomba.X\ssd.c
+DC8 text14 CODE >80:D:\Ecop14\CofreBomba.X\ssd.c
+DCC text14 CODE >83:D:\Ecop14\CofreBomba.X\ssd.c
+DE4 text14 CODE >84:D:\Ecop14\CofreBomba.X\ssd.c
+DF8 text14 CODE >85:D:\Ecop14\CofreBomba.X\ssd.c
+DFC text14 CODE >86:D:\Ecop14\CofreBomba.X\ssd.c
+E00 text14 CODE >91:D:\Ecop14\CofreBomba.X\ssd.c
+E0A text14 CODE >91:D:\Ecop14\CofreBomba.X\ssd.c
+E18 text14 CODE >91:D:\Ecop14\CofreBomba.X\ssd.c
+E20 text14 CODE >91:D:\Ecop14\CofreBomba.X\ssd.c
+E28 text14 CODE >91:D:\Ecop14\CofreBomba.X\ssd.c
+E30 text14 CODE >91:D:\Ecop14\CofreBomba.X\ssd.c
+E3A text14 CODE >92:D:\Ecop14\CofreBomba.X\ssd.c
+B22 text13 CODE >76:D:\Ecop14\CofreBomba.X\main.c
+B22 text13 CODE >77:D:\Ecop14\CofreBomba.X\main.c
+B2A text13 CODE >79:D:\Ecop14\CofreBomba.X\main.c
+B3A text13 CODE >80:D:\Ecop14\CofreBomba.X\main.c
+B40 text13 CODE >81:D:\Ecop14\CofreBomba.X\main.c
+B4C text13 CODE >82:D:\Ecop14\CofreBomba.X\main.c
+B58 text13 CODE >83:D:\Ecop14\CofreBomba.X\main.c
+B5E text13 CODE >84:D:\Ecop14\CofreBomba.X\main.c
+B6A text13 CODE >86:D:\Ecop14\CofreBomba.X\main.c
+B6E text13 CODE >88:D:\Ecop14\CofreBomba.X\main.c
+B74 text13 CODE >89:D:\Ecop14\CofreBomba.X\main.c
+B86 text13 CODE >90:D:\Ecop14\CofreBomba.X\main.c
+B8E text13 CODE >91:D:\Ecop14\CofreBomba.X\main.c
+B96 text13 CODE >93:D:\Ecop14\CofreBomba.X\main.c
+BC8 text13 CODE >94:D:\Ecop14\CofreBomba.X\main.c
+BFA text13 CODE >95:D:\Ecop14\CofreBomba.X\main.c
+C2C text13 CODE >96:D:\Ecop14\CofreBomba.X\main.c
+C4A text13 CODE >97:D:\Ecop14\CofreBomba.X\main.c
+C4E text13 CODE >98:D:\Ecop14\CofreBomba.X\main.c
+C5A text13 CODE >86:D:\Ecop14\CofreBomba.X\main.c
+C6C text13 CODE >100:D:\Ecop14\CofreBomba.X\main.c
+C72 text13 CODE >101:D:\Ecop14\CofreBomba.X\main.c
+C7E text13 CODE >102:D:\Ecop14\CofreBomba.X\main.c
+C80 text13 CODE >103:D:\Ecop14\CofreBomba.X\main.c
+C8C text13 CODE >105:D:\Ecop14\CofreBomba.X\main.c
+C96 text13 CODE >106:D:\Ecop14\CofreBomba.X\main.c
+CA0 text13 CODE >107:D:\Ecop14\CofreBomba.X\main.c
+CAA text13 CODE >108:D:\Ecop14\CofreBomba.X\main.c
+CB4 text13 CODE >109:D:\Ecop14\CofreBomba.X\main.c
+CB8 text13 CODE >110:D:\Ecop14\CofreBomba.X\main.c
+CC4 text13 CODE >111:D:\Ecop14\CofreBomba.X\main.c
+CCA text13 CODE >112:D:\Ecop14\CofreBomba.X\main.c
+CCE text13 CODE >115:D:\Ecop14\CofreBomba.X\main.c
+686 text12 CODE >54:D:\Ecop14\CofreBomba.X\io.c
+686 text12 CODE >56:D:\Ecop14\CofreBomba.X\io.c
+6A2 text12 CODE >57:D:\Ecop14\CofreBomba.X\io.c
+6D4 text12 CODE >58:D:\Ecop14\CofreBomba.X\io.c
+6F6 text12 CODE >59:D:\Ecop14\CofreBomba.X\io.c
+712 text12 CODE >60:D:\Ecop14\CofreBomba.X\io.c
+748 text12 CODE >61:D:\Ecop14\CofreBomba.X\io.c
+76E text12 CODE >62:D:\Ecop14\CofreBomba.X\io.c
+78A text12 CODE >63:D:\Ecop14\CofreBomba.X\io.c
+7C0 text12 CODE >64:D:\Ecop14\CofreBomba.X\io.c
+7E6 text12 CODE >65:D:\Ecop14\CofreBomba.X\io.c
+802 text12 CODE >66:D:\Ecop14\CofreBomba.X\io.c
+838 text12 CODE >67:D:\Ecop14\CofreBomba.X\io.c
+85E text12 CODE >68:D:\Ecop14\CofreBomba.X\io.c
+87A text12 CODE >69:D:\Ecop14\CofreBomba.X\io.c
+8B0 text12 CODE >70:D:\Ecop14\CofreBomba.X\io.c
+8D2 text12 CODE >73:D:\Ecop14\CofreBomba.X\io.c
+1BEE text11 CODE >3:D:\Ecop14\CofreBomba.X\so.c
+1BEE text11 CODE >4:D:\Ecop14\CofreBomba.X\so.c
+1C02 text11 CODE >5:D:\Ecop14\CofreBomba.X\so.c
+1C16 text11 CODE >6:D:\Ecop14\CofreBomba.X\so.c
+1C2A text11 CODE >7:D:\Ecop14\CofreBomba.X\so.c
+1C2C text10 CODE >54:D:\Ecop14\CofreBomba.X\keypad.c
+1C2C text10 CODE >55:D:\Ecop14\CofreBomba.X\keypad.c
+1C30 text10 CODE >56:D:\Ecop14\CofreBomba.X\keypad.c
+1C44 text10 CODE >57:D:\Ecop14\CofreBomba.X\keypad.c
+1C58 text10 CODE >58:D:\Ecop14\CofreBomba.X\keypad.c
+1C5C text10 CODE >59:D:\Ecop14\CofreBomba.X\keypad.c
+1CE2 text9 CODE >25:D:\Ecop14\CofreBomba.X\lcd.c
+1CE4 text9 CODE >26:D:\Ecop14\CofreBomba.X\lcd.c
+1CEE text9 CODE >27:D:\Ecop14\CofreBomba.X\lcd.c
+1D02 text9 CODE >28:D:\Ecop14\CofreBomba.X\lcd.c
+1D06 text9 CODE >29:D:\Ecop14\CofreBomba.X\lcd.c
+14DA text8 CODE >72:D:\Ecop14\CofreBomba.X\lcd.c
+14DA text8 CODE >73:D:\Ecop14\CofreBomba.X\lcd.c
+14EE text8 CODE >74:D:\Ecop14\CofreBomba.X\lcd.c
+1502 text8 CODE >75:D:\Ecop14\CofreBomba.X\lcd.c
+1506 text8 CODE >76:D:\Ecop14\CofreBomba.X\lcd.c
+1512 text8 CODE >78:D:\Ecop14\CofreBomba.X\lcd.c
+1520 text8 CODE >79:D:\Ecop14\CofreBomba.X\lcd.c
+152C text8 CODE >80:D:\Ecop14\CofreBomba.X\lcd.c
+153A text8 CODE >81:D:\Ecop14\CofreBomba.X\lcd.c
+1546 text8 CODE >82:D:\Ecop14\CofreBomba.X\lcd.c
+1554 text8 CODE >83:D:\Ecop14\CofreBomba.X\lcd.c
+1560 text8 CODE >85:D:\Ecop14\CofreBomba.X\lcd.c
+156E text8 CODE >86:D:\Ecop14\CofreBomba.X\lcd.c
+157A text8 CODE >88:D:\Ecop14\CofreBomba.X\lcd.c
+1580 text8 CODE >89:D:\Ecop14\CofreBomba.X\lcd.c
+1586 text8 CODE >90:D:\Ecop14\CofreBomba.X\lcd.c
+158C text8 CODE >91:D:\Ecop14\CofreBomba.X\lcd.c
+1DB2 text7 CODE >51:D:\Ecop14\CofreBomba.X\pwm.c
+1DB2 text7 CODE >53:D:\Ecop14\CofreBomba.X\pwm.c
+1DB4 text7 CODE >55:D:\Ecop14\CofreBomba.X\pwm.c
+1DB8 text7 CODE >56:D:\Ecop14\CofreBomba.X\pwm.c
+1DBA text7 CODE >58:D:\Ecop14\CofreBomba.X\pwm.c
+1DBE text7 CODE >60:D:\Ecop14\CofreBomba.X\pwm.c
+1DCA text7 CODE >61:D:\Ecop14\CofreBomba.X\pwm.c
+1BB0 text6 CODE >45:D:\Ecop14\CofreBomba.X\rgb.c
+1BB0 text6 CODE >46:D:\Ecop14\CofreBomba.X\rgb.c
+1BC4 text6 CODE >47:D:\Ecop14\CofreBomba.X\rgb.c
+1BD8 text6 CODE >48:D:\Ecop14\CofreBomba.X\rgb.c
+1BEC text6 CODE >49:D:\Ecop14\CofreBomba.X\rgb.c
+163E text5 CODE >117:D:\Ecop14\CofreBomba.X\main.c
+163E text5 CODE >118:D:\Ecop14\CofreBomba.X\main.c
+1642 text5 CODE >119:D:\Ecop14\CofreBomba.X\main.c
+164A text5 CODE >120:D:\Ecop14\CofreBomba.X\main.c
+1650 text5 CODE >121:D:\Ecop14\CofreBomba.X\main.c
+1654 text5 CODE >122:D:\Ecop14\CofreBomba.X\main.c
+1658 text5 CODE >123:D:\Ecop14\CofreBomba.X\main.c
+1688 text5 CODE >124:D:\Ecop14\CofreBomba.X\main.c
+1694 text5 CODE >125:D:\Ecop14\CofreBomba.X\main.c
+16A6 text5 CODE >126:D:\Ecop14\CofreBomba.X\main.c
+16AC text5 CODE >127:D:\Ecop14\CofreBomba.X\main.c
+16AE text5 CODE >121:D:\Ecop14\CofreBomba.X\main.c
+16BE text5 CODE >130:D:\Ecop14\CofreBomba.X\main.c
+16CA text5 CODE >131:D:\Ecop14\CofreBomba.X\main.c
+16D0 text5 CODE >134:D:\Ecop14\CofreBomba.X\main.c
+1A74 text4 CODE >94:D:\Ecop14\CofreBomba.X\ssd.c
+1A74 text4 CODE >96:D:\Ecop14\CofreBomba.X\ssd.c
+1A88 text4 CODE >97:D:\Ecop14\CofreBomba.X\ssd.c
+1A9C text4 CODE >98:D:\Ecop14\CofreBomba.X\ssd.c
+1AB0 text4 CODE >99:D:\Ecop14\CofreBomba.X\ssd.c
+1AC4 text4 CODE >102:D:\Ecop14\CofreBomba.X\ssd.c
+1AC8 text4 CODE >104:D:\Ecop14\CofreBomba.X\ssd.c
+1DFC text3 CODE >55:D:\Ecop14\CofreBomba.X\timer.c
+1DFC text3 CODE >57:D:\Ecop14\CofreBomba.X\timer.c
+1E00 text3 CODE >58:D:\Ecop14\CofreBomba.X\timer.c
+1E02 text3 CODE >59:D:\Ecop14\CofreBomba.X\timer.c
+1D54 text2 CODE >37:D:\Ecop14\CofreBomba.X\timer.c
+1D54 text2 CODE >42:D:\Ecop14\CofreBomba.X\timer.c
+1D5E text2 CODE >44:D:\Ecop14\CofreBomba.X\timer.c
+1D62 text2 CODE >47:D:\Ecop14\CofreBomba.X\timer.c
+1D6A text2 CODE >49:D:\Ecop14\CofreBomba.X\timer.c
+1D6E text2 CODE >50:D:\Ecop14\CofreBomba.X\timer.c
+1D72 text2 CODE >52:D:\Ecop14\CofreBomba.X\timer.c
+1D74 text2 CODE >53:D:\Ecop14\CofreBomba.X\timer.c
+1DE2 text1 CODE >31:D:\Ecop14\CofreBomba.X\timer.c
+1DE2 text1 CODE >33:D:\Ecop14\CofreBomba.X\timer.c
+1DF0 text1 CODE >34:D:\Ecop14\CofreBomba.X\timer.c
+1344 text0 CODE >137:D:\Ecop14\CofreBomba.X\main.c
+1344 text0 CODE >139:D:\Ecop14\CofreBomba.X\main.c
+1348 text0 CODE >140:D:\Ecop14\CofreBomba.X\main.c
+134C text0 CODE >141:D:\Ecop14\CofreBomba.X\main.c
+1350 text0 CODE >142:D:\Ecop14\CofreBomba.X\main.c
+1354 text0 CODE >143:D:\Ecop14\CofreBomba.X\main.c
+1358 text0 CODE >144:D:\Ecop14\CofreBomba.X\main.c
+135C text0 CODE >145:D:\Ecop14\CofreBomba.X\main.c
+1360 text0 CODE >147:D:\Ecop14\CofreBomba.X\main.c
+1366 text0 CODE >148:D:\Ecop14\CofreBomba.X\main.c
+1372 text0 CODE >149:D:\Ecop14\CofreBomba.X\main.c
+1378 text0 CODE >150:D:\Ecop14\CofreBomba.X\main.c
+137C text0 CODE >153:D:\Ecop14\CofreBomba.X\main.c
+1388 text0 CODE >154:D:\Ecop14\CofreBomba.X\main.c
+138C text0 CODE >155:D:\Ecop14\CofreBomba.X\main.c
+1390 text0 CODE >157:D:\Ecop14\CofreBomba.X\main.c
+1394 text0 CODE >158:D:\Ecop14\CofreBomba.X\main.c
+1398 text0 CODE >159:D:\Ecop14\CofreBomba.X\main.c
+139C text0 CODE >161:D:\Ecop14\CofreBomba.X\main.c
+13A0 text0 CODE >162:D:\Ecop14\CofreBomba.X\main.c
+13A4 text0 CODE >163:D:\Ecop14\CofreBomba.X\main.c
+13A8 text0 CODE >165:D:\Ecop14\CofreBomba.X\main.c
+13B4 text0 CODE >166:D:\Ecop14\CofreBomba.X\main.c
+13C0 text0 CODE >167:D:\Ecop14\CofreBomba.X\main.c
+13CC text0 CODE >168:D:\Ecop14\CofreBomba.X\main.c
+13D0 text0 CODE >169:D:\Ecop14\CofreBomba.X\main.c
+13D4 text0 CODE >173:D:\Ecop14\CofreBomba.X\main.c
+13DE text0 CODE >173:D:\Ecop14\CofreBomba.X\main.c
+13EC text0 CODE >173:D:\Ecop14\CofreBomba.X\main.c
+13F4 text0 CODE >173:D:\Ecop14\CofreBomba.X\main.c
+13FC text0 CODE >173:D:\Ecop14\CofreBomba.X\main.c
+1406 text0 CODE >174:D:\Ecop14\CofreBomba.X\main.c
+140A text0 CODE >175:D:\Ecop14\CofreBomba.X\main.c
+140E text0 CODE >177:D:\Ecop14\CofreBomba.X\main.c
+1DCC cinit CODE >1833:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DCC cinit CODE >1835:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DCC cinit CODE >1838:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DCC cinit CODE >1875:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DD0 cinit CODE >1876:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DD2 cinit CODE >1877:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DD2 cinit CODE >1878:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DD4 cinit CODE >1879:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DD6 cinit CODE >1880:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DD8 cinit CODE >1886:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DD8 cinit CODE >1889:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DDA cinit CODE >1890:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DDC cinit CODE >1891:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+1DDE cinit CODE >1892:C:\Users\Patri\AppData\Local\Temp\xcAsei0.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___awdiv@counter 23 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__size_of_pushNibble 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+___lwmod@counter 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\CofreBomba.X.production.o
+__Hspace_0 1E06 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Hspace_1 3D 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Hspace_4 60000E 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of_lcdChar 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of_lcdInit 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__end_of_lcdString 1B20 0 CODE 0 text27 dist/default/production\CofreBomba.X.production.o
+lcdCommand@value 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+checkPassword@i 39 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\CofreBomba.X.production.o
+__size_of_lcdString 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\CofreBomba.X.production.o
+__end_of_rgbInit 1BEE 0 CODE 0 text6 dist/default/production\CofreBomba.X.production.o
+__end_of_atraso_ms 19C2 0 CODE 0 text42 dist/default/production\CofreBomba.X.production.o
+__end_of_delayMicro 1E06 0 CODE 0 text32 dist/default/production\CofreBomba.X.production.o
+_ssdUpdate CD0 0 CODE 0 text14 dist/default/production\CofreBomba.X.production.o
+_timerReset 1D54 0 CODE 0 text2 dist/default/production\CofreBomba.X.production.o
+_v0 1B 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+_v1 1A 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+_v2 19 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+_v3 18 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of_explosion CD0 0 CODE 0 text13 dist/default/production\CofreBomba.X.production.o
+__size_of_atraso_ms 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+setPassword@i 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+kpReadKey@i 22 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lsmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\CofreBomba.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+_keys 15 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+_main 1344 0 CODE 0 text0 dist/default/production\CofreBomba.X.production.o
+__size_of_explosion 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+start 0 0 CODE 0 init C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+__end_of_timerInit 1E04 0 CODE 0 text3 dist/default/production\CofreBomba.X.production.o
+__end_of_timerWait 1DF2 0 CODE 0 text1 dist/default/production\CofreBomba.X.production.o
+__size_of___aldiv 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of___awmod 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of___lwdiv 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of___lwmod 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+__size_of_timerInit 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of_timerWait 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_lcdString 1ACA 0 CODE 0 text27 dist/default/production\CofreBomba.X.production.o
+__size_of_lcdCommand 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+?___wmul 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_atraso_ms 195E 0 CODE 0 text42 dist/default/production\CofreBomba.X.production.o
+__size_of_pulseEnablePin 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+kpDebounce@i 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_explosion B22 0 CODE 0 text13 dist/default/production\CofreBomba.X.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\CofreBomba.X.production.o
+_kpDebounce 1102 0 CODE 0 text36 dist/default/production\CofreBomba.X.production.o
+___awmod@sign 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_timerInit 1DFC 0 CODE 0 text3 dist/default/production\CofreBomba.X.production.o
+_timerWait 1DE2 0 CODE 0 text1 dist/default/production\CofreBomba.X.production.o
+__accesstop 80 0 ABS 0 - C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+intlevel0 0 0 CODE 0 text C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+intlevel1 0 0 CODE 0 text C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+intlevel2 0 0 CODE 0 text C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+intlevel3 0 0 CODE 0 text C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+_turnOff 1892 0 CODE 0 text26 dist/default/production\CofreBomba.X.production.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+_PulseEnClock 1C8E 0 CODE 0 text38 dist/default/production\CofreBomba.X.production.o
+___aldiv@divisor 23 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+kpDebounce@tempo 1D 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\CofreBomba.X.production.o
+__size_of_PulseClockData 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\CofreBomba.X.production.o
+___aldiv@sign 28 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___awdiv@sign 24 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\CofreBomba.X.production.o
+__end_of_timerReset 1D76 0 CODE 0 text2 dist/default/production\CofreBomba.X.production.o
+kpDebounce@newRead 13 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+___wmul@multiplicand 21 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_ADCON1 FC1 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+?_kpRead 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of_lcdChar 1D94 0 CODE 0 text28 dist/default/production\CofreBomba.X.production.o
+__end_of_lcdInit 158E 0 CODE 0 text8 dist/default/production\CofreBomba.X.production.o
+___awdiv@dividend 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+_CCPR2L FBB 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_display 1C 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\CofreBomba.X.production.o
+__end_of___wmul 1D2E 0 CODE 0 text17 dist/default/production\CofreBomba.X.production.o
+__size_of_soWrite 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__end_of_digitalRead FA6 0 CODE 0 text41 dist/default/production\CofreBomba.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\CofreBomba.X.production.o
+__size_of_PulseEnClock 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\CofreBomba.X.production.o
+__end_of_kpDebounce 1238 0 CODE 0 text36 dist/default/production\CofreBomba.X.production.o
+soWrite@value 25 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\CofreBomba.X.production.o
+___awdiv@divisor 21 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___lwmod@divisor 28 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of___aldiv 1344 0 CODE 0 text20 dist/default/production\CofreBomba.X.production.o
+__end_of___awdiv 14DA 0 CODE 0 text23 dist/default/production\CofreBomba.X.production.o
+__end_of___awmod 163E 0 CODE 0 text22 dist/default/production\CofreBomba.X.production.o
+__end_of___lwdiv 17BE 0 CODE 0 text18 dist/default/production\CofreBomba.X.production.o
+__end_of___lwmod 195E 0 CODE 0 text21 dist/default/production\CofreBomba.X.production.o
+__size_of_ssdInit 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_INTCON FF2 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of_pinMode 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__end_of_setPassword 16D2 0 CODE 0 text5 dist/default/production\CofreBomba.X.production.o
+___lwdiv@quotient 23 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+atraso_ms@i 21 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+atraso_ms@j 23 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+atraso_ms@k 24 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+turnOff@led 25 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of_PulseEnClock 1CB8 0 CODE 0 text38 dist/default/production\CofreBomba.X.production.o
+__end_of_kpReadKey 174A 0 CODE 0 text34 dist/default/production\CofreBomba.X.production.o
+___lwmod@dividend 26 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\CofreBomba.X.production.o
+turnOn@led 25 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+start_initialization 1DCC 0 CODE 0 cinit dist/default/production\CofreBomba.X.production.o
+__size_of_kpReadKey 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\CofreBomba.X.production.o
+__end_of_kpInit 1C5E 0 CODE 0 text10 dist/default/production\CofreBomba.X.production.o
+__end_of_kpRead 1DFC 0 CODE 0 text35 dist/default/production\CofreBomba.X.production.o
+___aldiv@quotient 29 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_digitalWrite 8D4 0 CODE 0 text40 dist/default/production\CofreBomba.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of_delayMicro 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+pinMode@pin 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_kpReadKey 16D2 0 CODE 0 text34 dist/default/production\CofreBomba.X.production.o
+__end_of_pwmSet 182A 0 CODE 0 text16 dist/default/production\CofreBomba.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+delayMili@a 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+delayMili@i 22 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__size_of_pwmInit 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+pushByte@rs 28 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_rgbInit 1BB0 0 CODE 0 text6 dist/default/production\CofreBomba.X.production.o
+__end_of_soInit 1C2C 0 CODE 0 text11 dist/default/production\CofreBomba.X.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\CofreBomba.X.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\CofreBomba.X.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\CofreBomba.X.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\CofreBomba.X.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\CofreBomba.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\CofreBomba.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\CofreBomba.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\CofreBomba.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\CofreBomba.X.production.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/default/production\CofreBomba.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\CofreBomba.X.production.o
+__end_of_soWrite 1B6E 0 CODE 0 text37 dist/default/production\CofreBomba.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\CofreBomba.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\CofreBomba.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\CofreBomba.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\CofreBomba.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\CofreBomba.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\CofreBomba.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\CofreBomba.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\CofreBomba.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\CofreBomba.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\CofreBomba.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\CofreBomba.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\CofreBomba.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\CofreBomba.X.production.o
+___lwdiv@counter 25 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of_turnOn 1892 0 CODE 0 text25 dist/default/production\CofreBomba.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\CofreBomba.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\CofreBomba.X.production.o
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\CofreBomba.X.production.o
+__Hconfig 30000E 0 CONFIG 4 config dist/default/production\CofreBomba.X.production.o
+__size_of_digitalWrite 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+?_digitalRead 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\CofreBomba.X.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\CofreBomba.X.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\CofreBomba.X.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\CofreBomba.X.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\CofreBomba.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\CofreBomba.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\CofreBomba.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\CofreBomba.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\CofreBomba.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/production\CofreBomba.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\CofreBomba.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\CofreBomba.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\CofreBomba.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\CofreBomba.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\CofreBomba.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\CofreBomba.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\CofreBomba.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\CofreBomba.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\CofreBomba.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\CofreBomba.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\CofreBomba.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\CofreBomba.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\CofreBomba.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\CofreBomba.X.production.o
+__end_of_ssdInit 1ACA 0 CODE 0 text4 dist/default/production\CofreBomba.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\CofreBomba.X.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\CofreBomba.X.production.o
+__end_of_pinMode 8D4 0 CODE 0 text12 dist/default/production\CofreBomba.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\CofreBomba.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\CofreBomba.X.production.o
+__Hinit 4 0 CODE 0 init dist/default/production\CofreBomba.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\CofreBomba.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\CofreBomba.X.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production\CofreBomba.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\CofreBomba.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\CofreBomba.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\CofreBomba.X.production.o
+__Linit 0 0 CODE 0 init dist/default/production\CofreBomba.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\CofreBomba.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\CofreBomba.X.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\CofreBomba.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\CofreBomba.X.production.o
+___wmul 1D08 0 CODE 0 text17 dist/default/production\CofreBomba.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Hintret 0 0 ABS 0 intret dist/default/production\CofreBomba.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\CofreBomba.X.production.o
+_PR2 FCB 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__S0 1E06 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__S1 3D 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__S2 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__S4 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__S5 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_try 17 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+__size_of_timerReset 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__end_of_digitalWrite B22 0 CODE 0 text40 dist/default/production\CofreBomba.X.production.o
+__size_of_digitalRead 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_pwmFrequency 1D2E 0 CODE 0 text19 dist/default/production\CofreBomba.X.production.o
+explosion@i 35 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+setPassword@key 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\CofreBomba.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\CofreBomba.X.production.o
+kpDebounce@oldRead 11 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of_charKey 61C 0 SMALLCONST 0 smallconst dist/default/production\CofreBomba.X.production.o
+__size_of_setPassword 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_pulseEnablePin 1B6E 0 CODE 0 text31 dist/default/production\CofreBomba.X.production.o
+pushByte@value 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+timerReset@ciclos 21 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lintentry 0 0 ABS 0 intentry dist/default/production\CofreBomba.X.production.o
+__size_of_kpDebounce 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_pushNibble 1CE2 0 CODE 0 text9 dist/default/production\CofreBomba.X.production.o
+_checkPassword FA6 0 CODE 0 text24 dist/default/production\CofreBomba.X.production.o
+_lcdChar 1D76 0 CODE 0 text28 dist/default/production\CofreBomba.X.production.o
+_lcdInit 14DA 0 CODE 0 text8 dist/default/production\CofreBomba.X.production.o
+__Hramtop 600 0 RAM 0 ramtop dist/default/production\CofreBomba.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\CofreBomba.X.production.o
+checkPassword@newkey 35 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__activetblptr 2 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\CofreBomba.X.production.o
+__size_of___wmul 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\CofreBomba.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\CofreBomba.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\CofreBomba.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\CofreBomba.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\CofreBomba.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\CofreBomba.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\CofreBomba.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\CofreBomba.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\CofreBomba.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\CofreBomba.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\CofreBomba.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\CofreBomba.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\CofreBomba.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\CofreBomba.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\CofreBomba.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\CofreBomba.X.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\CofreBomba.X.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production\CofreBomba.X.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\CofreBomba.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\CofreBomba.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\CofreBomba.X.production.o
+__Htext31 0 0 ABS 0 text31 dist/default/production\CofreBomba.X.production.o
+__Htext32 0 0 ABS 0 text32 dist/default/production\CofreBomba.X.production.o
+__Htext33 0 0 ABS 0 text33 dist/default/production\CofreBomba.X.production.o
+__Htext34 0 0 ABS 0 text34 dist/default/production\CofreBomba.X.production.o
+__Htext35 0 0 ABS 0 text35 dist/default/production\CofreBomba.X.production.o
+__Htext36 0 0 ABS 0 text36 dist/default/production\CofreBomba.X.production.o
+__Htext37 0 0 ABS 0 text37 dist/default/production\CofreBomba.X.production.o
+__Htext38 0 0 ABS 0 text38 dist/default/production\CofreBomba.X.production.o
+__Htext39 0 0 ABS 0 text39 dist/default/production\CofreBomba.X.production.o
+__Htext40 0 0 ABS 0 text40 dist/default/production\CofreBomba.X.production.o
+__Htext41 0 0 ABS 0 text41 dist/default/production\CofreBomba.X.production.o
+__Htext42 0 0 ABS 0 text42 dist/default/production\CofreBomba.X.production.o
+__size_of_turnOff 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__end_of_pwmInit 1DCC 0 CODE 0 text7 dist/default/production\CofreBomba.X.production.o
+_kpInit 1C2C 0 CODE 0 text10 dist/default/production\CofreBomba.X.production.o
+_kpRead 1DF2 0 CODE 0 text35 dist/default/production\CofreBomba.X.production.o
+checkPassword@correct 37 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___awmod@counter 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__size_of_pwmFrequency 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_PulseClockData 1CB8 0 CODE 0 text39 dist/default/production\CofreBomba.X.production.o
+__ptext10 1C2C 0 CODE 0 text10 dist/default/production\CofreBomba.X.production.o
+__ptext11 1BEE 0 CODE 0 text11 dist/default/production\CofreBomba.X.production.o
+__ptext12 686 0 CODE 0 text12 dist/default/production\CofreBomba.X.production.o
+__ptext13 B22 0 CODE 0 text13 dist/default/production\CofreBomba.X.production.o
+__ptext14 CD0 0 CODE 0 text14 dist/default/production\CofreBomba.X.production.o
+__ptext15 1A1C 0 CODE 0 text15 dist/default/production\CofreBomba.X.production.o
+__ptext16 17BE 0 CODE 0 text16 dist/default/production\CofreBomba.X.production.o
+__ptext17 1D08 0 CODE 0 text17 dist/default/production\CofreBomba.X.production.o
+__ptext18 174A 0 CODE 0 text18 dist/default/production\CofreBomba.X.production.o
+__ptext19 1D2E 0 CODE 0 text19 dist/default/production\CofreBomba.X.production.o
+__ptext20 1238 0 CODE 0 text20 dist/default/production\CofreBomba.X.production.o
+__ptext21 18FA 0 CODE 0 text21 dist/default/production\CofreBomba.X.production.o
+__ptext22 158E 0 CODE 0 text22 dist/default/production\CofreBomba.X.production.o
+__ptext23 1416 0 CODE 0 text23 dist/default/production\CofreBomba.X.production.o
+__ptext24 FA6 0 CODE 0 text24 dist/default/production\CofreBomba.X.production.o
+__ptext25 182A 0 CODE 0 text25 dist/default/production\CofreBomba.X.production.o
+__ptext26 1892 0 CODE 0 text26 dist/default/production\CofreBomba.X.production.o
+__ptext27 1ACA 0 CODE 0 text27 dist/default/production\CofreBomba.X.production.o
+__ptext28 1D76 0 CODE 0 text28 dist/default/production\CofreBomba.X.production.o
+__ptext29 1D94 0 CODE 0 text29 dist/default/production\CofreBomba.X.production.o
+__ptext30 19C2 0 CODE 0 text30 dist/default/production\CofreBomba.X.production.o
+__ptext31 1B6E 0 CODE 0 text31 dist/default/production\CofreBomba.X.production.o
+__ptext32 1E04 0 CODE 0 text32 dist/default/production\CofreBomba.X.production.o
+__ptext33 1C5E 0 CODE 0 text33 dist/default/production\CofreBomba.X.production.o
+__ptext34 16D2 0 CODE 0 text34 dist/default/production\CofreBomba.X.production.o
+__ptext35 1DF2 0 CODE 0 text35 dist/default/production\CofreBomba.X.production.o
+__ptext36 1102 0 CODE 0 text36 dist/default/production\CofreBomba.X.production.o
+__ptext37 1B20 0 CODE 0 text37 dist/default/production\CofreBomba.X.production.o
+__ptext38 1C8E 0 CODE 0 text38 dist/default/production\CofreBomba.X.production.o
+__ptext39 1CB8 0 CODE 0 text39 dist/default/production\CofreBomba.X.production.o
+__ptext40 8D4 0 CODE 0 text40 dist/default/production\CofreBomba.X.production.o
+__ptext41 E3C 0 CODE 0 text41 dist/default/production\CofreBomba.X.production.o
+__ptext42 195E 0 CODE 0 text42 dist/default/production\CofreBomba.X.production.o
+pwmSet@porcento 28 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___aldiv 1238 0 CODE 0 text20 dist/default/production\CofreBomba.X.production.o
+___awdiv 1416 0 CODE 0 text23 dist/default/production\CofreBomba.X.production.o
+___awmod 158E 0 CODE 0 text22 dist/default/production\CofreBomba.X.production.o
+___lwdiv 174A 0 CODE 0 text18 dist/default/production\CofreBomba.X.production.o
+___lwmod 18FA 0 CODE 0 text21 dist/default/production\CofreBomba.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\CofreBomba.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\CofreBomba.X.production.o
+ssdDigit@pos 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+ssdDigit@val 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+pwmSet@val 29 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\CofreBomba.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\CofreBomba.X.production.o
+_pwmSet 17BE 0 CODE 0 text16 dist/default/production\CofreBomba.X.production.o
+_lcdCommand 1D94 0 CODE 0 text29 dist/default/production\CofreBomba.X.production.o
+___wmul@multiplier 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+main@slot 3C 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\CofreBomba.X.production.o
+___lwdiv@divisor 21 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_soInit 1BEE 0 CODE 0 text11 dist/default/production\CofreBomba.X.production.o
+__end_of_pwmFrequency 1D54 0 CODE 0 text19 dist/default/production\CofreBomba.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\CofreBomba.X.production.o
+isa$std 1 0 ABS 0 - C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+__end_of_pulseEnablePin 1BB0 0 CODE 0 text31 dist/default/production\CofreBomba.X.production.o
+_turnOn 182A 0 CODE 0 text25 dist/default/production\CofreBomba.X.production.o
+__size_of_pushByte 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+stackhi 5FF 0 ABS 0 - C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+stacklo 80 0 ABS 0 - C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+pinMode@type 21 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lintcode 0 0 CODE 0 intcode dist/default/production\CofreBomba.X.production.o
+__Lintret 0 0 ABS 0 intret dist/default/production\CofreBomba.X.production.o
+explosion@cont 33 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\CofreBomba.X.production.o
+__size_of_kpInit 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of_kpRead 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__size_of_ssdDigit 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__end_of_pushNibble 1D08 0 CODE 0 text9 dist/default/production\CofreBomba.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__pbssCOMRAM 1 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of_PulseClockData 1CE2 0 CODE 0 text39 dist/default/production\CofreBomba.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+end_of_initialization 1DD8 0 CODE 0 cinit dist/default/production\CofreBomba.X.production.o
+lcdChar@value 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+delayMicro@a 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\CofreBomba.X.production.o
+__Hintentry 0 0 ABS 0 intentry dist/default/production\CofreBomba.X.production.o
+__size_of_pwmSet 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+digitalWrite@pin 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___awdiv@quotient 25 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+?___aldiv 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+?___awdiv 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+?___awmod 27 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___lwdiv@dividend 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+?___lwdiv 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+?___lwmod 26 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\CofreBomba.X.production.o
+digitalRead@pin 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of_delayMili 1C8E 0 CODE 0 text33 dist/default/production\CofreBomba.X.production.o
+__size_of_checkPassword 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+___awmod@dividend 27 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__size_of_soInit 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Lramtop 600 0 RAM 0 ramtop dist/default/production\CofreBomba.X.production.o
+__size_of_delayMili 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\CofreBomba.X.production.o
+__pcinit 1DCC 0 CODE 0 cinit dist/default/production\CofreBomba.X.production.o
+__end_of_lcdCommand 1DB2 0 CODE 0 text29 dist/default/production\CofreBomba.X.production.o
+_soWrite 1B20 0 CODE 0 text37 dist/default/production\CofreBomba.X.production.o
+__end_of_turnOff 18FA 0 CODE 0 text26 dist/default/production\CofreBomba.X.production.o
+__size_of_turnOn 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__ptext0 1344 0 CODE 0 text0 dist/default/production\CofreBomba.X.production.o
+__ptext1 1DE2 0 CODE 0 text1 dist/default/production\CofreBomba.X.production.o
+__ptext2 1D54 0 CODE 0 text2 dist/default/production\CofreBomba.X.production.o
+__ptext3 1DFC 0 CODE 0 text3 dist/default/production\CofreBomba.X.production.o
+__ptext4 1A74 0 CODE 0 text4 dist/default/production\CofreBomba.X.production.o
+__ptext5 163E 0 CODE 0 text5 dist/default/production\CofreBomba.X.production.o
+__ptext6 1BB0 0 CODE 0 text6 dist/default/production\CofreBomba.X.production.o
+__ptext7 1DB2 0 CODE 0 text7 dist/default/production\CofreBomba.X.production.o
+__ptext8 14DA 0 CODE 0 text8 dist/default/production\CofreBomba.X.production.o
+__ptext9 1CE2 0 CODE 0 text9 dist/default/production\CofreBomba.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\CofreBomba.X.production.o
+_password 9 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\CofreBomba.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\CofreBomba.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\CofreBomba.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\CofreBomba.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\CofreBomba.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\CofreBomba.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\CofreBomba.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\CofreBomba.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\CofreBomba.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\CofreBomba.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\CofreBomba.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\CofreBomba.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\CofreBomba.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\CofreBomba.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\CofreBomba.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\CofreBomba.X.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\CofreBomba.X.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production\CofreBomba.X.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\CofreBomba.X.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\CofreBomba.X.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\CofreBomba.X.production.o
+__Ltext31 0 0 ABS 0 text31 dist/default/production\CofreBomba.X.production.o
+__Ltext32 0 0 ABS 0 text32 dist/default/production\CofreBomba.X.production.o
+__Ltext33 0 0 ABS 0 text33 dist/default/production\CofreBomba.X.production.o
+__Ltext34 0 0 ABS 0 text34 dist/default/production\CofreBomba.X.production.o
+__Ltext35 0 0 ABS 0 text35 dist/default/production\CofreBomba.X.production.o
+__Ltext36 0 0 ABS 0 text36 dist/default/production\CofreBomba.X.production.o
+__Ltext37 0 0 ABS 0 text37 dist/default/production\CofreBomba.X.production.o
+__Ltext38 0 0 ABS 0 text38 dist/default/production\CofreBomba.X.production.o
+__Ltext39 0 0 ABS 0 text39 dist/default/production\CofreBomba.X.production.o
+__Ltext40 0 0 ABS 0 text40 dist/default/production\CofreBomba.X.production.o
+__Ltext41 0 0 ABS 0 text41 dist/default/production\CofreBomba.X.production.o
+__Ltext42 0 0 ABS 0 text42 dist/default/production\CofreBomba.X.production.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\Patri\AppData\Local\Temp\xcAsei0.o
+___aldiv@dividend 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_pushByte 19C2 0 CODE 0 text30 dist/default/production\CofreBomba.X.production.o
+lcdString@i 31 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\CofreBomba.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\CofreBomba.X.production.o
+__psmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\CofreBomba.X.production.o
+_ssdInit 1A74 0 CODE 0 text4 dist/default/production\CofreBomba.X.production.o
+_ssdDigit 1A1C 0 CODE 0 text15 dist/default/production\CofreBomba.X.production.o
+_delayMili 1C5E 0 CODE 0 text33 dist/default/production\CofreBomba.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\CofreBomba.X.production.o
+_started 1E 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+_pinMode 686 0 CODE 0 text12 dist/default/production\CofreBomba.X.production.o
+__end_of_pushByte 1A1C 0 CODE 0 text30 dist/default/production\CofreBomba.X.production.o
+_digitalRead E3C 0 CODE 0 text41 dist/default/production\CofreBomba.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__end_of_checkPassword 1102 0 CODE 0 text24 dist/default/production\CofreBomba.X.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\CofreBomba.X.production.o
+__end_of__initialization 1DD8 0 CODE 0 cinit dist/default/production\CofreBomba.X.production.o
+lcdString@msg 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___awmod@divisor 29 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__end_of_ssdDigit 1A74 0 CODE 0 text15 dist/default/production\CofreBomba.X.production.o
+pwmFrequency@freq 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\CofreBomba.X.production.o
+__size_of_rgbInit 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+pushNibble@rs 28 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\CofreBomba.X.production.o
+_setPassword 163E 0 CODE 0 text5 dist/default/production\CofreBomba.X.production.o
+__pcstackCOMRAM 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+___aldiv@counter 27 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_charKey 612 0 SMALLCONST 0 smallconst dist/default/production\CofreBomba.X.production.o
+__end_of_main 1416 0 CODE 0 text0 dist/default/production\CofreBomba.X.production.o
+_delayMicro 1E04 0 CODE 0 text32 dist/default/production\CofreBomba.X.production.o
+_PORTA F80 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_PORTB F81 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_PORTC F82 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_PORTD F83 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_PORTE F84 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_T0CON FD5 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_T2CON FCA 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_TMR0H FD7 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_TMR0L FD6 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_TRISA F92 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_TRISB F93 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_TRISC F94 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_TRISD F95 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+_TRISE F96 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__end_of_valor 612 0 SMALLCONST 0 smallconst dist/default/production\CofreBomba.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\CofreBomba.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\CofreBomba.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\CofreBomba.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\CofreBomba.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\CofreBomba.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\CofreBomba.X.production.o
+_input 1 0 COMRAM 1 bssCOMRAM dist/default/production\CofreBomba.X.production.o
+_valor 601 0 SMALLCONST 0 smallconst dist/default/production\CofreBomba.X.production.o
+timerReset@tempo 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_CCP2CON FBA 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+soWrite@i 27 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+_pwmInit 1DB2 0 CODE 0 text7 dist/default/production\CofreBomba.X.production.o
+__initialization 1DCC 0 CODE 0 cinit dist/default/production\CofreBomba.X.production.o
+atraso_ms@num 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\CofreBomba.X.production.o
+___wmul@product 23 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Hsmallconst 686 0 SMALLCONST 0 smallconst dist/default/production\CofreBomba.X.production.o
+pushNibble@value 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\CofreBomba.X.production.o
+__end_of_ssdUpdate E3C 0 CODE 0 text14 dist/default/production\CofreBomba.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\CofreBomba.X.production.o
+__Hintcode 0 0 CODE 0 intcode dist/default/production\CofreBomba.X.production.o
+__size_of_ssdUpdate 0 0 ABS 0 - dist/default/production\CofreBomba.X.production.o
+digitalWrite@value 21 0 COMRAM 1 cstackCOMRAM dist/default/production\CofreBomba.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text12 0 686 686 1780 1
+reset_vec 0 0 0 4 1
+smallconst 0 600 600 86 1
+bssCOMRAM 1 1 1 3C 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
